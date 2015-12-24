@@ -34,41 +34,9 @@
 
     <div class="brand">Zengrui-Boa's Casual</div>
 
-    <div class="address-bar"></div>
+    <div class="address-bar">merry christmas</div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">xxxknight</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    
 
     <div class="container">
 
@@ -86,13 +54,13 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/slide1.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/slide2.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/slide3.jpg" alt="">
                             </div>
                         </div>
 
@@ -105,9 +73,9 @@
                         </a>
                     </div>
                     <h2 class="brand-before">
-                        <small>Welcome to</small>
+                        <small>merry christmas</small>
                     </h2>
-                    <h1 class="brand-name">Boa Casual</h1>
+                    <h1 class="brand-name">Boa</h1>
                     
                 </div>
             </div>
@@ -123,22 +91,22 @@
                     <hr>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive img-circle" src="img/hello1.jpg" width="330" height="330"alt="">
                     <h3>Hello Kitty
                     </h3>
-                    <button class="btn btn-primary">选择</button>
+                    <button class="btn btn-primary" id="button1">选择</button>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive img-circle" src="img/hello2.jpg" width="330" height="330"alt="">
                     <h3>Boa
                     </h3>
-                    <button class="btn btn-success">选择</button>
+                    <button class="btn btn-success" id="button2">选择</button>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>Boa
+                    <img class="img-responsive img-circle" src="img/hello3.jpg" width="330" height="330"alt="">
+                    <h3>时崎狂三
                     </h3>
-                    <button class="btn btn-danger">选择</button>
+                    <button class="btn btn-danger" id="button3">选择</button>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -158,6 +126,8 @@
         </div>
     </footer>
 
+    <embed src="jingle.mp3" width="0" height="0" loop="100" autostart="true"></embed>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -168,6 +138,18 @@
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
+    })
+
+    $('#button1').click(function(){
+        alert("呵呵哒");
+    })
+
+    $('#button2').click(function(){
+        alert("师妹萌萌哒，不过你怎么好意思点？");
+    })
+
+    $('#button3').click(function(){
+        alert("找打么？");
     })
     </script>
 
